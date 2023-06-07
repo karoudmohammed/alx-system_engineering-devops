@@ -1,7 +1,2 @@
 #!/bin/bash
-
-DIR=/tmp/my_first_directory
-
-if ! [[ -d $DIR ]];then
-	mkdir $DIR
-fi
+mkdir /tmp/my_first_directory
