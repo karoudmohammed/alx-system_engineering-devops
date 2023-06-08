@@ -1,13 +1,2 @@
 #!/bin/bash
-
-html_files=$(ls *.html 2> /dev/null)
-
-for file in ${html_files[@]}; do
-	if ! [[ -e ../$file ]]; then
-		mv $file ../
-	else
-		if [[ $file -nt ../$file ]]; then
-			mv $file ../
-		fi
-	fi
-done
+mv *.html ../
