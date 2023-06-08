@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alm; echo -e "\n"
+echo -e "$(ls -alm)\n"
