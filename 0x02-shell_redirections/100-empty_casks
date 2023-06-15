@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rs | grep -E "^0" | cut -d " " -f 2
+ls -aRs | grep -E "^0" | cut -d " " -f 2
